@@ -34,30 +34,53 @@
     background-color: #e90303;
 }
 
-
-
 .footer {
-    background-color: pink; /* Dark background for contrast */
-    color: white; /* Light text for readability */
-    text-align: center; /* Center text */
-    padding: 20px 10px; /* Add padding for spacing */
-    position: absolute; /* Ensure it doesn't overlap content */
-    bottom: -100px; /* Stick to the bottom */
-    width: 100%; /* Full width */
-    border-radius: 5px;
-    border-color: #000;
-    
+    background-color: pink; 
+    color: #f5f5f5; 
+    text-align: center;
+    padding: 20px 10px;
+    position: absolute;
+    bottom: -130px;
+    width: 100%;
+    border-top: 3px solid #ff69b4; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); 
 }
-.contact-info{
-    color: white; 
-    text-decoration: none; 
-    padding: 10px 15px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    transition: background-color 0.3s ease; 
-    border-radius: 5px;
-        
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
 }
+
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.contact-info li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #ff69b4; 
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #ff69b4; 
+    font-size: 18px;
+}
+
 
 
 
@@ -195,7 +218,7 @@ body{
     width: 100%;
     text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: 80px;
 }
 
 .button button{
