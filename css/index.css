@@ -33,6 +33,11 @@
 .navbar a:hover {
     background-color: #e90303;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .footer {
     background-color: pink; 
