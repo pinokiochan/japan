@@ -94,18 +94,6 @@ body{
     background: pink;
     overflow: scroll;
 }
-.transition-box{
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    transition: background-color 2s ease-in-out;
-    border-radius: 10px;
-    cursor: pointer;
-
-}
-.transition-box:hover{
-    background-color: pink;
-}
 .container{
     position: absolute;
     top: 50%;
