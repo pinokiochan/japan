@@ -88,16 +88,6 @@
 
 
 
-@media (max-width: 480px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header .logo img {
-        height: 30px;
-    }
-}
 
 
 body{
@@ -250,4 +240,38 @@ body{
 .button button:hover{
     background: white;
     color: pink;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.highlights article {
+    flex: 1 1 calc(33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .highlights {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlights article {
+        flex: 1 1 100%;
+    }
+
+    .hero {
+        padding: 30px 10px;
+    }
 }
