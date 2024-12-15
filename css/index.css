@@ -88,6 +88,16 @@
 
 
 
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .logo img {
+        height: 30px;
+    }
+}
 
 
 body{
